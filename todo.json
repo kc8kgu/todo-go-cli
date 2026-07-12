@@ -6,7 +6,12 @@
     },
     {
         "id": 2,
-        "done": true,
+        "done": false,
         "title": "git add ."
+    },
+    {
+        "id": 3,
+        "done": false,
+        "title": "git commit -m \"initial commit\""
     }
 ]
