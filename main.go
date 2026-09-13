@@ -40,7 +40,7 @@ func main() {
 
 func usage() {
 
-	fmt.Println("usage: td list | add | edit | done| delete | clear <id> <title>")
+	fmt.Println("usage: td list | add | edit | done | delete | clear <id> <title>")
 
 }
 
@@ -144,7 +144,7 @@ func editTodos() {
 		}
 	}
 
-	fmt.Printf("todo with id %v not found", id)
+	fmt.Printf("todo with id %v not found\n", id)
 }
 
 func doneTodos() {
@@ -168,7 +168,7 @@ func doneTodos() {
 		}
 	}
 
-	fmt.Printf("todo with id %v not found", id)
+	fmt.Printf("todo with id %v not found\n", id)
 }
 
 func deleteTodos() {
@@ -192,7 +192,7 @@ func deleteTodos() {
 		}
 	}
 
-	fmt.Printf("todo with id %v not found", id)
+	fmt.Printf("todo with id %v not found\n", id)
 }
 
 func clearTodos() {
